@@ -4,8 +4,8 @@ class Pizza(models.Model):
     SIZE_30 = '30'
     SIZE_50 = '50'
     PIZZA_SIZES = (
-        (SIZE_30, 'Freshman'),
-        (SIZE_50, 'Sophomore'),
+        (SIZE_30, '30 cm'),
+        (SIZE_50, '50 cm'),
     )
 
     size = models.CharField(
